@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083021869478",
+    "firebase_url": "https://encarta-e8154.firebaseio.com",
+    "project_id": "encarta-e8154",
+    "storage_bucket": "encarta-e8154.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083021869478:android:e483a2b183a164ed",
+        "android_client_info": {
+          "package_name": "mx.ipn.encarta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083021869478-4kecan1nkobv1sgg8oqmj3hrus4nj25h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQSHbgCjsxzNp2qMkao9pdb1YWzn9kNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083021869478-4kecan1nkobv1sgg8oqmj3hrus4nj25h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

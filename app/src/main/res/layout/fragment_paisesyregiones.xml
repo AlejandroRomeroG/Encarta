@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paisesyregiones">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuando se habla de paisaje geográfico debemos diferenciar entre el natural y el cultural. El primero se refiere a todos los elementos físicos de un lugar que no han sido alterados significativamente por el hombre (recolección, caza y pesca en pequeña escala como es el caso de las sociedades primitivas). El segundo, se define como aquel que ha sido modificado por el hombre destruyendo bosques, cultivando la tierra, construyendo viviendas, carreteras, puentes, entre muchos otros, alterando así el equilibrio ecológico, la fauna y flora propias de la región."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A continuación se mostrarán los distinyos tipos de paisajes que predominan en el territorio Americano;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/uno" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/dos" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/tres" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/cuatro" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/cinco" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/seis" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/siete" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/ocho" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/nueve" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

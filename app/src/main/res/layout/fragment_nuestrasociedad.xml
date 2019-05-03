@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nuestrasociedad">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Con más de 100 millones de habitantes, México acoge un conjunto inigualable de culturas y pueblos formado a partir de enigmáticas civilizaciones, unas costumbres muy singulares y una historia apasionante. El inabarcable tamaño de la sociedad mexicana y su naturaleza heterogénea conllevan multitud de contrastes, particularidades y unas identidades muy marcadas."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A causa de la migración masiva desde el campo a la ciudad en busca de una situación laboral mejor, tres cuartas partes de los mexicanos viven en áreas urbanas. Sin embargo, existe aún una gran diversidad de grupos étnicos y un marcado sentido de pertenencia regional. También se conservan muchas variedades lingüísticas. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es más, incluso se observan tremendas disparidades en cuanto a recursos económicos, acceso a la educación y status social. La cultura mexicana es celosa de sus costumbres y a la vez totalmente heterogénea. Existe un sentimiento muy fuerte de orgullo respecto a las tradiciones y el folklore de cada una de las regiones. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Debido a dicha migración hacia las ciudades y también a Estados Unidos, la necesidad de poseer una identidad regional y étnica es fundamental en para los mexicanos. Dado que la gran mayoría de la población es mestiza, la síntesis entre elementos culturales europeos e indígenas es frecuente. Sin embargo, la conservación del legado indígena como parte constituyente de la identidad nacional también se considera sumamente importante."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La unidad familiar es fundamental para la sociedad mexicana. Las familias, entendido el término en su sentido más amplio, pasan juntos las vacaciones y la mayoría de los domingos. Sea para celebrar el santo de alguno de sus miembros, como para conmemoraciones patrióticas, es algo muy típico las grandes reuniones familiares que abarcan a varias generaciones. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/mexico" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pyr"
+            android:title="Paisajes y regiones" />
+        <item
+            android:id="@+id/lsv"
+            android:title="Los seres vivos" />
+        <item
+            android:id="@+id/cyt"
+            android:title="Ciencia" />
+        <item
+            android:id="@+id/mat"
+            android:title="Matemáticas" />
+
+        <item
+            android:id="@+id/dep"
+            android:title="Deportes" />
+
+        <item
+            android:id="@+id/his"
+            android:title="Historia" />
+
+        <item
+            android:id="@+id/ns"
+            android:title="Nuestra sociedad" />
+
+        <item
+            android:id="@+id/art"
+            android:title="Las artes" />
+
+    </group>
+    <item android:title="Configuración">
+        <menu>
+            <item android:id="@+id/LogOut"
+                android:title="Cerrar Sesión">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>

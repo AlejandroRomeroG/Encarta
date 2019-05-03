@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lasartes">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El arte es toda forma de expresión de carácter creativo que puede tener un ser humano. Se trata de expresar lo que una persona siente a través de una infinidad de formas y técnicas."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A lo largo de la historia, la palabra arte se ha ido expandiendo por todo el mundo en todas sus formas. Antiguamente, cuando alguien hablaba de arte, solo daba a entender algunos aspectos de éste, como la pintura y el dibujo. Hoy en día esta palabra abarca mucho más que eso. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No todos los historiadores, filósofos y demás pensadores están de acuerdo en la definición de arte actual. Muchas personas no suelen considerar arte a ciertas expresiones como la cocina, es decir, el arte culinario y solo llaman arte a lo que hace referencia a la pintura, el dibujo, el canto y la danza. Pero la realidad es que a través de los años todo ha ido avanzando, y el arte fue expandiéndose no solo en los lugares del mundo, sino que también en su propio significado."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El arte se puede dividir en las siguientes disciplinas;"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artes Visuales"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/visuales" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artes Escénicas"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/escenicas" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artes Musicales"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/musicales" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artes Literarias"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/literarias" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
